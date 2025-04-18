@@ -1,8 +1,9 @@
 <div align="center">
-    <img src="./public/logo.webp" alt="Logo" width="200" height="200" />
+    <img src="./public/logo.webp" alt="Logo" width="200" height="200" style="border-radius: 100%" />
 </div>
 
 # *Rep0Mind* - AI-Agent Repository Chat Interface
+
 
 ## 🌟 Overview
 
@@ -23,12 +24,9 @@ Rep0Mind is a sophisticated Intelligent Agentic AI-powered chat interface for Gi
 - 🔄 **Real-time Updates** - Live updates and progress indicators during AI processing
 - 🔗 **Tool calling** - Using the tools to gather information from the repository and the internet to answer the user's query
 
+### Data Flow
 
-### Developer Experience
-- 🎯 **Type Safety** - Full TypeScript support for robust development
-- 🎨 **Modern UI** - Clean and responsive interface built with [Tailwind CSS](https://tailwindcss.com/)
-- 📱 **Mobile-First Design** - Optimized for both desktop and mobile experiences
-- 🔧 **Easy Configuration** - Simple setup and configuration process
+<img src="./public/workflow.png" alt="Architecture" width="800" height="400" />
 
 ## 🚀 Getting Started
 
@@ -36,7 +34,8 @@ Rep0Mind is a sophisticated Intelligent Agentic AI-powered chat interface for Gi
 - [Node.js 18+](https://nodejs.org/)
 - npm/pnpm/yarn
 - A [GitHub](https://github.com/) account
-- [Mastra API key](https://mastra.ai/docs/getting-started)
+- [Mem0 API key](https://docs.mem0.ai/overview)
+- [Google Generative AI API key](https://ai.google.dev/gemini-api/docs/api-key) (optional, for Google LLMs) You can use any LLM of your choice
 
 ### Installation
 
@@ -84,18 +83,11 @@ The application is built using:
 - **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
 - **[React Markdown](https://github.com/remarkjs/react-markdown)** - Markdown rendering with syntax highlighting
 
-Original Backend Structure:
-
-For those who want to take a look and dive deeper into the main AI agent, you can check out the original repository [here](https://github.com/yashskaini-coder/Rep0Mind).
-
-
-### Data Flow
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
 
-1. **[Fork](https://github.com/yashskaini-coder/Rep0Mind/fork)** the repository
+1. **[Fork](https://github.com/yashksaini-coder/Rep0Mind/fork)** the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
