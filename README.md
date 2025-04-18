@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="./public/logo.webp" alt="Logo" width="200" height="200" />
+</div>
+
 # *Rep0Mind* - AI-Agent Repository Chat Interface
 
 ## 🌟 Overview
