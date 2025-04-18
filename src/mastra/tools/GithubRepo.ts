@@ -75,7 +75,7 @@ export const getRepositoryInfo = new Tool({
   description: "Get comprehensive repository information including commits and contributors",
   inputSchema,
   outputSchema,
-  // @ts-ignore
+  // @ts-expect-error
   execute: async ({ context }) => {
     const { repo, owner } = context;
 

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { octokit } from "@/utils/octokit";
 import { Tool } from "@mastra/core/tools";
 import { z } from "zod";

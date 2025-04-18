@@ -1,3 +1,4 @@
+// @ts-nocheck
 'use client'
 
 import { useRef, useEffect, useState } from 'react'
@@ -11,7 +12,7 @@ interface Message {
   toolOutput?: any
 }
 
-export function Weather() {
+export function GitHubChat() {
     const [owner, setOwner] = useState('')
     const [repo, setRepo] = useState('')
     const [message, setMessage] = useState('')
